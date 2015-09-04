@@ -5,4 +5,6 @@ The open-source PBCdlComm software is designed for data acquisition from PakBus-
 #### [User manual](https://github.com/sutanay/PbCdlComm/blob/master/docs/USER_MANUAL.pdf)
 #### [Presentation at ARM Science Team Meeting, 2007](https://github.com/sutanay/PbCdlComm/blob/master/docs/P00139.pdf)
 
+Contact: sutanayDotchoudhuryAtpnnlDotgov
+
 
