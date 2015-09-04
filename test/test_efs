@@ -1,5 +1,0 @@
-rm ~/home/choudhury/www/eftest/ef*.log
-grep ERROR /data/dmflogs/sgp/instr_logs/sgpmfrsrE2/sgpmfrsrE2.20080600.000000.comlog > /home/choudhury/www/eftest/ef2.log
-grep ERROR /data/dmflogs/sgp/instr_logs/sgpmfrsrE5/sgpmfrsrE5.20080600.000000.comlog > /home/choudhury/www/eftest/ef5.log
-grep ERROR /data/dmflogs/sgp/instr_logs/sgpmfrsrE9/sgpmfrsrE9.20080600.000000.comlog > /home/choudhury/www/eftest/ef9.log
-grep ERROR /data/dmflogs/sgp/instr_logs/sgpmfrsrE16/sgpmfrsrE16.20080600.000000.comlog > /home/choudhury/www/eftest/ef16.log
