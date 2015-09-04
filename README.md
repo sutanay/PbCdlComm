@@ -7,9 +7,9 @@ The open-source PBCdlComm software is designed for data acquisition from PakBus-
 
 # Contributors
 
-Sutanay Choudhury, Pacific Northwest National Laboratory, USA
-Brian Ermold, Pacific Northwest National Laboratory, USA
-Matt Macduff, Pacific Northwest National Laboratory, USA
+* Sutanay Choudhury, Pacific Northwest National Laboratory, USA
+* Brian Ermold, Pacific Northwest National Laboratory, USA
+* Matt Macduff, Pacific Northwest National Laboratory, USA
 
 # Users
 
