@@ -1,0 +1,28 @@
+# PB5CollectionProcess:
+
+=> Inputs from command line
+- Bad configuration filepath.
+- Invalid working directory
+- Bad datasource description
+
+=> Inputs from configuration file
+- Bad working path
+- Invalid security code
+- Bad port name/invalid baud rate
+
+<= Reject all bad inputs and log the cause.
+
+# AsciiWriter
+=>ctor()
+- Empty string specified in constructor -> convert to "."
+- Negative file_span in ctor -> convert to "3600"
+- Convert empty seperator to "," 
+
+=>initWrite()
+- Fails to create datafile -> throws exception
+=> processRecordBegin()
+- negative record index, zero-valued time structure ->
+=> processRecordEnd()
+=> finishWrite()
+=> flush()
+
