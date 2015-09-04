@@ -5,6 +5,12 @@ The open-source PBCdlComm software is designed for data acquisition from PakBus-
 #### [User manual](https://github.com/sutanay/PbCdlComm/blob/master/docs/USER_MANUAL.pdf)
 #### [Presentation at ARM Science Team Meeting, 2007](https://github.com/sutanay/PbCdlComm/blob/master/docs/P00139.pdf)
 
+# Contributors
+
+Sutanay Choudhury, Pacific Northwest National Laboratory, USA
+Brian Ermold, Pacific Northwest National Laboratory, USA
+Matt Macduff, Pacific Northwest National Laboratory, USA
+
 # Users
 
 Our code has been used by several organizations worldwide.  Please let us know if you find it useful.
