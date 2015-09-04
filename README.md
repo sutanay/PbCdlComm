@@ -5,6 +5,24 @@ The open-source PBCdlComm software is designed for data acquisition from PakBus-
 #### [User manual](https://github.com/sutanay/PbCdlComm/blob/master/docs/USER_MANUAL.pdf)
 #### [Presentation at ARM Science Team Meeting, 2007](https://github.com/sutanay/PbCdlComm/blob/master/docs/P00139.pdf)
 
+# Users
+
+Our code has been used by several organizations worldwide.  Please let us know if you find it useful.
+
+* Universidad Politecnica de Madrid, Spain.
+* Karlsruher Institut für Technologie, Germany
+* University of Massachusetts, USA
+* Manly Hydraulics Laboratory, New South Wales, Australia
+* Tijuana River National Estuarine Research Reserve, USA
+* Environment Canada, Canada
+* WSL Institute for Snow and Avalanche Research, Switzerland
+* DESIS Servicios Tecnología Ltda. Chile
+* Center for GeoSpace Studies, USA
+* Atmospheric Radiation Measurement Program, USA
+* National Oceanic and Atmospheric Administration, USA
+* Pacific Northwest National Laboratory, USA
+* Argonne National Laboratory, USA
+
 Contact: sutanayDotchoudhuryAtpnnlDotgov
 
 
