@@ -2,10 +2,20 @@
 
 The open-source PBCdlComm software is designed for data acquisition from PakBus-protocol based Campbell Data loggers by the Scientific Data Management team at Pacific Northwest National Laboratory. This implements a significant subset of the PakBus protocol, a proprietary family of procotols created by Campbell Scientific for communication between connected devices. This work was funded by US Department of Energy's Atmospheric Radiation Measurement program (ARM). As an alternative for Campbell Scientific's Loggernet software, this is ideal for deploying with rugged field PCs that have limited processing resources and do not require a full-blown GUI module. The software is designed so that it can be extended to implement a new data storage mechanism, a customized post-processing module and/or integrated with web-services for sophisticated monitoring or reporting. So far, PbCdlComm has been tested with CR1000 and CR3000 dataloggers.
 
-# Installation on Ubuntu
+# Building and Installation on Ubuntu 16.04
 
+- Downgrade to GCC 4.4.7 (Newer versions may work, as well.)
+- Build and Install log4cpp 1.0 (Newer versions may work, as well.): https://launchpad.net/ubuntu/+source/log4cpp/1.0-4
+  - Fix the bug: https://sourceforge.net/p/log4cpp/bugs/129/
+- Build the Code:
 ```
-sudo apt-get install liblog4cpp5-dev
+sudo ./configure
+sudo make
+sudo make install
+```
+- Add Shared Libraries to the Path:
+```
+sudo echo "/usr/local/lib" | sudo tee --append /etc/ld.so.conf > /dev/null && sudo ldconfig
 ```
 
 #### [User manual](https://github.com/sutanay/PbCdlComm/blob/master/docs/USER_MANUAL.pdf)
