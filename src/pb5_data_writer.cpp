@@ -3,6 +3,8 @@
  * This will contain implementation of "writer" modules using various persistence mechanisms.
  * Presently only the AsciiWriter class is implemented. 
  */
+#include <memory>
+#include <typeinfo>
 #include <stdexcept>
 #include <time.h>
 #include <sys/types.h>

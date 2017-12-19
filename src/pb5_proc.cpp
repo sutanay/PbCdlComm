@@ -3,6 +3,8 @@
  * Implementation of the collection process for collecting data from a PakBus5 logger.
  */
 
+#include <memory>
+#include <typeinfo>
 #include "collection_process.h"
 #include <log4cpp/Category.hh>
 #include <getopt.h>

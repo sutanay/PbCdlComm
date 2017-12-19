@@ -13,6 +13,8 @@
  *   $State: Exp $
  *****************************************************/
 
+#include <memory>
+#include <typeinfo>
 #include <iostream>
 #include <sstream>
 #include <fstream>
