@@ -5,8 +5,8 @@ The open-source PBCdlComm software is designed for data acquisition from PakBus-
 # Building and Installation on Ubuntu 16.04
 
 - Downgrade to GCC 4.4.7 (Newer versions may work, as well.)
-- Build and Install log4cpp 1.0 (Newer versions may work, as well.): https://launchpad.net/ubuntu/+source/log4cpp/1.0-4
-  - Fix the bug: https://sourceforge.net/p/log4cpp/bugs/129/
+- [Build and Install log4cpp 1.0](https://launchpad.net/ubuntu/+source/log4cpp/1.0-4) (Newer versions may work, as well.)
+  - [Fix the Bug](https://sourceforge.net/p/log4cpp/bugs/129/)
 - Build the Code:
 ```
 sudo ./configure
@@ -18,10 +18,12 @@ sudo make install
 sudo echo "/usr/local/lib" | sudo tee --append /etc/ld.so.conf > /dev/null && sudo ldconfig
 ```
 
+# Documantation
+
 #### [User manual](https://github.com/sutanay/PbCdlComm/blob/master/docs/USER_MANUAL.pdf)
 #### [Presentation at ARM Science Team Meeting, 2007](https://github.com/sutanay/PbCdlComm/blob/master/docs/P00139.pdf)
 
-### Contributors
+# Contributors
 
 * Sutanay Choudhury, Pacific Northwest National Laboratory, USA
 * Brian Ermold, Pacific Northwest National Laboratory, USA
@@ -46,5 +48,3 @@ Our code has been used by several organizations worldwide.  Please let us know i
 * Argonne National Laboratory, USA
 
 Contact: sutanayDotchoudhuryAtpnnlDotgov
-
-
