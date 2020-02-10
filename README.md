@@ -14,6 +14,7 @@ Build the code:
 
 ```
 git clone https://github.com/vahid-dan/PbCdlComm.git
+cd PbCdlComm/src
 make
 sudo make install
 ```
