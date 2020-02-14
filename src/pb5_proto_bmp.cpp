@@ -13,6 +13,9 @@
  *   $State: Exp $
  *****************************************************/
 
+#include <memory>
+#include <typeinfo>
+#include <cstring>
 #include <iostream>
 #include <iomanip>
 #include <fstream>

@@ -12,7 +12,9 @@
  *   $Date: 2008/06/09 18:55:19 $
  *   $State: Exp $
  *****************************************************/
-
+#include <memory>
+#include <typeinfo>
+#include <cstring> 
 #include <iostream>
 #include <sstream>
 #include <exception>

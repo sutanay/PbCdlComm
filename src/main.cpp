@@ -3,6 +3,8 @@
  * Contains the entry point to the pbcdl_comm application.
  */
 
+#include <memory>
+#include <typeinfo>
 #include <iostream>
 #include "collection_process.h"
 #include "utils.h"
